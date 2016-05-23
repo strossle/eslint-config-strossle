@@ -20,7 +20,7 @@
     "url": "https://github.com/strossle/eslint-config-strossle/issues"
   },
   "homepage": "https://github.com/strossle/eslint-config-strossle#readme",
-  "peerDependencies": {
+  "dependencies": {
     "eslint-config-airbnb-base": "^3.0.1"
   },
   "devDependencies": {
