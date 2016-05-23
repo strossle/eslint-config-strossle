@@ -7,5 +7,6 @@ module.exports = {
         'arrow-parens': ['error', 'always'],
         curly: ['error', 'all'],
         indent: ['error', 4],
+        'no-underscore-dangle': ['off'],
     },
 };
