@@ -5,7 +5,7 @@ module.exports = {
     rules: {
         'arrow-body-style': ['error', 'always'],
         'arrow-parens': ['error', 'always'],
-        curly: [2, 'all'],
+        curly: ['error', 'all'],
         indent: ['error', 4],
     },
 };
