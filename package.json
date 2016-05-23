@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-strossle",
+  "version": "1.0.0",
+  "description": "Strossle eslint JavaScript style guide",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strossle/eslint-config-strossle.git"
+  },
+  "keywords": [
+    "eslint",
+    "strossle"
+  ],
+  "author": "Fredrik Bondza <fredrik.bondza@strossle.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strossle/eslint-config-strossle/issues"
+  },
+  "homepage": "https://github.com/strossle/eslint-config-strossle#readme",
+  "peerDependencies": {
+    "eslint-config-airbnb-base": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-plugin-import": "^1.8.0"
+  }
+}
