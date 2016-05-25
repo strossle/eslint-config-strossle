@@ -19,7 +19,7 @@ array.map((element) => { return element.id; }); // good
 ```javascript
 array.map((element) => element.id); // bad
 
-array.map((element) => { return element.id; });
+array.map((element) => { return element.id; }); // good
 ```
 
 ## Curly Braces
