@@ -15,11 +15,11 @@ array.map(element => element.id); // bad
 array.map((element) => { return element.id; }); // good
 ```
 <a name="arrow-functions--braces"></a><a name="1.2"></a>
-* [1.2](#arrow-functions--braces) **Braces**: Arrow function bodies should always be surrounded by braces.
+* [1.2](#arrow-functions--braces) **Braces**: Arrow function bodies should be surrounded by braces when needed.
 ```javascript
-array.map((element) => element.id); // bad
+array.map((element) => element.id); // good
 
-array.map((element) => { return element.id; }); // good
+array.map((element) => { const id = element.id; return id; }); // good
 ```
 
 ## Curly Braces
