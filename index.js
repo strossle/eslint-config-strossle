@@ -3,8 +3,8 @@ module.exports = {
         'eslint-config-airbnb-base',
     ],
     rules: {
-        'arrow-body-style': ['error', 'as-needed'],
-        'arrow-parens': ['error', 'as-needed'],
+        'arrow-body-style': 'off',
+        'arrow-parens': 'off',
         curly: ['error', 'all'],
         indent: ['error', 4],
     },
