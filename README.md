@@ -7,20 +7,7 @@ The his JavaScript style guide is based on the [eslint-config-airbnb-base](https
 1. [Indentation](#indentation)
 
 ## Arrow functions
-<a name="arrow-functions--parenthesis"></a><a name="1.1"></a>
-* [1.1](#arrow-functions--parenthesis) **Parenthesis**: Arrow function arguments should be surrounded by parenthesis when needed.
-```javascript
-array.map(element => element.id); // good
-
-array.map((a, b) => a + b); // good
-```
-<a name="arrow-functions--braces"></a><a name="1.2"></a>
-* [1.2](#arrow-functions--braces) **Braces**: Arrow function bodies should be surrounded by braces when needed.
-```javascript
-array.map((element) => element.id); // good
-
-array.map((element) => { const id = element.id; return id; }); // good
-```
+We have turned off arrow function rules
 
 ## Curly Braces
 <a name="curly-braces--braces"></a><a name="2.1"></a>
